@@ -25,6 +25,9 @@ if ( process.env.NODE_ENV === 'development' ) {
 app.use(cors());
 app.use( express.json() );
 
+app.get('/', (req, res) => {
+    res.send('Hello, world!');
+  });
 app.use( '/api/products', ProductController );
 app.use( '/api/users', userController );
 // app.use( '/api/orders', orderRoutes );

@@ -9,7 +9,7 @@
     "data:import": "node seeder",
     "data:destroy": "node seeder -d"
   },
-  "author": "Abdul Zaker Olive",
+  "author": "Clement Samuel Ebong",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
