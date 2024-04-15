@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "data:import": "node seeder",
     "data:destroy": "node seeder -d"
